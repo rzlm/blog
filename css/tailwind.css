@@ -65,6 +65,8 @@
     border-color: var(--color-gray-200, currentColor);
   }
 
+
+
   a,
   button {
     outline-color: var(--color-primary-500);
@@ -76,6 +78,7 @@
     border-radius: var(--radius-sm);
     outline-color: var(--color-primary-500);
   }
+
 }
 
 @layer utilities {
@@ -116,7 +119,6 @@
     }
   }
 }
-
 .task-list-item::before {
   @apply hidden;
 }
