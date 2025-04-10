@@ -1,6 +1,7 @@
 import { sortPosts, allCoreContent } from 'pliny/utils/contentlayer'
 import { allBlogs } from 'contentlayer/generated'
 import Main from './Main'
+import Experience from '@/components/Experience'
 
 import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
@@ -22,10 +23,10 @@ Learning - Designing - Developing    </p>
     From creating intuitive front-end experiences to building robust back-end systems, I enjoy working across the stack to bring ideas to life. I’m passionate about learning new technologies, improving my skills, and creating software that’s both impactful and user-friendly. Whether it’s building web apps from the ground up or collaborating on meaningful projects, I’m always excited to grow and take on new challenges in tech.
     </p>
     <div className="z-20 mt-8 flex gap-4">
-        <button className=" hover:cursor-pointer dark:bg-white/10 dark:text-violet-200 bg-violet-400/40 text-violet-800 px-5 py-2 rounded-xl backdrop-blur-md shadow-lg hover:scale-105 transition transform duration-200 border dark:border-white/20 border-violet-900/20">
+        <button className=" hover:cursor-pointer dark:bg-white/10 dark:text-violet-200 bg-violet-400/40 text-violet-800 px-5 py-2 rounded-xl backdrop-blur-md shadow-lg hover:scale-105 transition transform duration-200 border dark:border-white/20 border-violet-900/20 hover:bg-violet-100/30 hover:border-violet-200">
           Contact me
         </button>
-        <button className="hover:cursor-pointer dark:bg-violet-200/10  bg-violet-400/40 dark:text-violet-200 text-violet-800 px-5 py-2 rounded-xl backdrop-blur-md shadow-lg hover:scale-105 transition transform duration-200 border dark:border-white/20 border-violet-900/20">
+        <button className="hover:cursor-pointer dark:bg-violet-200/10  bg-violet-400/40 dark:text-violet-200 text-violet-800 px-5 py-2 rounded-xl backdrop-blur-md shadow-lg hover:scale-105 transition transform duration-200 border dark:border-white/20 border-violet-900/20 hover:bg-violet-100/30 hover:border-violet-200">
           My projects
         </button>
       
@@ -52,8 +53,10 @@ Learning - Designing - Developing    </p>
   </div>
 
   
-  <div>
+  <div className='py-12'>
   <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">My Experience</h2>
+  <Experience />
+  <Experience />
   </div>
 </div>
 )
