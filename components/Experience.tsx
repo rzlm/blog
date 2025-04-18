@@ -28,10 +28,10 @@ const jobs = [
 ]
 const Experience = () => {
   return (
-    <div className='border outline m-4 outline-violet-200/40 border-violet-200/20 dark:border-violet-900/20 rounded-lg p-6  px-6 py-4 backdrop-blur-md shadow-lg hover:scale-105 transition transform duration-200'>
+    <div className='border outline m-4 outline-violet-200/40 border-violet-200/20 dark:border-violet-900/20 hover:dark:outline-violet-100  hover:outline-violet-700 rounded-lg p-6  px-6 py-4 backdrop-blur-md shadow-lg hover:scale-105 transition transform duration-200'>
         <div className='flex flex-col'>
-            <h1 className='font-bold text-2xl  '>Software developer</h1>
-            <h2 className='text-xl font-bold text-violet-500 dark:text-violet-200  '>Civiconnect</h2>
+            <h1 className='font-bold text-2xl  '>Web developer</h1>
+            <h2 className='text-xl font-bold text-violet-500 dark:text-violet-200  '>Company</h2>
         </div>
         <div>
             <p className='text-lg leading-7 text-gray-500 dark:text-gray-400'>

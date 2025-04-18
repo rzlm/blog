@@ -7,19 +7,15 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
+    title: 'covid-19 data analysis project',
+    description: `analysed a large ontario covid-19 dataset using python and visualized it using matplotlib, to determine if there was a correlation between cases and different age groups`,
+    imgSrc: '/static/images/covid.png',
     href: 'https://www.google.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
+    title: 'appointment scheduling system',
+    description: `created an appointment scheduling system for medium sized businesses to help them manage appointments.`,
+    imgSrc: '/static/images/time-machine.jpkg',
     href: '/blog/the-time-machine',
   },
 ]

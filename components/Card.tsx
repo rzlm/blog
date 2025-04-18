@@ -38,16 +38,18 @@ const Card = ({ title, description, imgSrc, href }) => (
             title
           )}
         </h2>
-        <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
-        {href && (
+        <p className="prose mb-3 max-w-none text-violet-900/70 dark:text-violet-200">{description}</p>
+      <button className='hover:cursor-pointer dark:bg-white/10 dark:text-violet-200 bg-violet-400/40 text-violet-800 px-5 py-2 rounded-xl backdrop-blur-md hover:scale-105 transition transform duration-200 border dark:border-white/20 border-violet-900/20 hover:bg-violet-100/30 hover:border-violet-200'>
+      {href && (
           <Link
             href={href}
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 text-base leading-6 font-medium"
+            className="t text-base leading-6 font-medium"
             aria-label={`Link to ${title}`}
           >
             Learn more &rarr;
           </Link>
         )}
+      </button>
       </div>
     </div>
   </div>

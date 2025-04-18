@@ -12,13 +12,13 @@ export default async function Page() {
 return(
   <div className="divide-y divide-gray-200 dark:divide-gray-700">
   <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-  <p className="text-lg leading-7 text-purple-700 dark:text-purple-500">
+  <p className="text-lg leading-7 text-violet-400 dark:text-violet-300">
 Learning - Designing - Developing    </p>
     <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-violet-950 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-violet-200">
       Razan Mohamed
     </h1>
     <h2 className='text-2xl font-bold '>About me</h2>
-    <p className='dark:text-violet-300 text-lg text-biolet-700 leading-7'> I’m an aspiring software engineer that loves tackling problems and turning them into innovative solutions.</p>
+    <p className='dark:text-violet-300 text-lg text-violet-900 leading-7'> I’m an aspiring software engineer that loves tackling problems and turning them into innovative solutions.</p>
     <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
     From creating intuitive front-end experiences to building robust back-end systems, I enjoy working across the stack to bring ideas to life. I’m passionate about learning new technologies, improving my skills, and creating software that’s both impactful and user-friendly. Whether it’s building web apps from the ground up or collaborating on meaningful projects, I’m always excited to grow and take on new challenges in tech.
     </p>
